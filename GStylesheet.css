@@ -1,0 +1,201 @@
+@media screen and (min-zoom: 400%) and (max-zoom: 500%) {
+  .topdivlogo{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+  }
+}
+@font-face {
+  font-family: 'Roboto-Regular,sans-serif';
+  src: url('Roboto-Regular.woff') format('woff');
+  /* Add more src lines for other formats if needed */
+  font-weight: normal;
+  font-style: normal;
+}
+body {
+  font-family: 'Roboto-Regular,sans-serif', sans-serif;
+}
+#bodycontent{
+  justify-content: center;
+  width: 100%;
+}
+#Glernix_top_left_id{
+  width: 90px; 
+  font-size: 32px;
+  color: black;
+}
+.topdivlogo{
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+}
+.link_decoration_no_underline {
+  text-decoration: none; /* Remove underline */
+  color: transparent;    /* Set color to transparent */
+}
+
+.link_decoration_no_underline:hover {
+  text-decoration: none; /* Remove underline on hover */
+  color: transparent;    /* Set color to transparent on hover */
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    height: fit-content;
+   }
+ .top_row{
+    top: 0;
+    padding-left: 1%;
+    height: 60px;
+    background-color: #f1f3f4;
+    color: rgb(80, 80, 80);
+    box-shadow: #8a8787;
+    transition: top 0.;
+  }
+  .fa:hover {
+    opacity: 0.7;
+  }
+  #container-fluid {
+    display: flex;
+    position: relative;
+    height: 300vh;
+    justify-content: center;
+  }
+  #auth_leftcontainer_round_img{
+    margin-top: 3%;
+    width: 90%;  
+    border-radius: 50%; 
+    border: gray;
+  }
+  #rightcontimg1{
+    width: 100%;
+    size: auto;
+    border-radius: 3%;  
+  }
+  #left-div{
+    flex: 1;
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin-left: 1%;
+    display: block;
+    height: 10%;
+   }
+   /* Remove hyperlink underline and color change on hover */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+/* Remove blue color on hover */
+a:hover {
+  color: inherit;
+}
+/* Optionally, you can set a different color for unvisited and visited links */
+a:link {
+  color: white;
+}
+
+a:visited {
+  color: inherit;
+}
+/* Optional: Remove outline on focus for accessibility */
+a:focus {
+  outline: none;
+}
+#right-div {
+    flex: 4;
+    box-sizing: border-box;
+    height: fixed;
+    display: block;
+   }
+    .row{
+      display: inline-block;
+      justify-content: space-between;
+    }
+    .column{
+      margin-left: 5%;
+      margin-right: 5%;
+      display: inline-block;
+      width: 40%;
+      margin-bottom: 20px;
+    }
+    .card {
+      overflow: hidden;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: transform 0.1618s ease-in-out;
+    }
+    .card:hover {
+      transform: scale(1.08);
+    }
+   #left-div {
+    flex: 1;
+    height: 16.4%;
+    box-sizing: border-box;
+    position: sticky;
+    top: 0;
+    left: 0;
+    display: block;
+    margin-right: 2%;  }
+  #right-div {
+    flex: 4;
+    box-sizing: border-box;
+    height: fixed;
+    display: block
+  }
+  div.contright {
+    position: absolute;
+    top: 0;
+    margin-left: 2%;
+    margin-right: 2%;
+  }
+  .card_data_image{
+    width: 40%;
+  }
+  #bottom-div {
+    display: block;
+    background-color: #f1f3f4;
+    color: #000;
+    position: relative;
+    bottom: 0;
+    left: 0;
+    padding-left: 3%;
+    width: auto;
+    height: 120px;
+    box-sizing: border-box;
+  }
+  .bottom-div-row {
+    text-decoration: none;
+    color: #000;
+  }
+  .bottom-div-row a {
+    text-decoration: none;
+    color: #000;
+  }
+  .bottom-div-row a:hover {
+    text-decoration: underline;
+    color: inherit;
+  }
+  .spacepx{
+    padding-right: 50px;
+    text-decoration: underline;
+  }
+  .bottominforow1{
+    margin-left: 1%;
+    color: black;
+  }
+  .footer {
+    display: block;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 15px;
+    background-color: rgb(100,100,100);
+    color: white;
+    text-align: center;
+    font-size: 10px;
+  }
