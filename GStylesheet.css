@@ -88,6 +88,7 @@ a {
 }
 /* Remove blue color on hover */
 a:hover {
+  text-decoration: none;
   color: inherit;
 }
 /* Optionally, you can set a different color for unvisited and visited links */
