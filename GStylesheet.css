@@ -31,10 +31,12 @@ body {
 }
 .link_decoration_no_underline {
   text-decoration: none; /* Remove underline */
+  color: transparent;    /* Set color to transparent */
 }
 
 .link_decoration_no_underline:hover {
   text-decoration: none; /* Remove underline on hover */
+  color: transparent;    /* Set color to transparent on hover */
 }
 
 body {
@@ -88,7 +90,6 @@ a {
 }
 /* Remove blue color on hover */
 a:hover {
-  text-decoration: none;
   color: inherit;
 }
 /* Optionally, you can set a different color for unvisited and visited links */
@@ -175,12 +176,12 @@ a:focus {
     color: #000;
   }
   .bottom-div-row a:hover {
-    text-decoration: none;
+    text-decoration: underline;
     color: inherit;
   }
   .spacepx{
     padding-right: 50px;
-    text-decoration: none;
+    text-decoration: underline;
   }
   .bottominforow1{
     margin-left: 1%;
