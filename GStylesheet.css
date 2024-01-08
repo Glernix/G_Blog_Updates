@@ -31,12 +31,10 @@ body {
 }
 .link_decoration_no_underline {
   text-decoration: none; /* Remove underline */
-  color: none;    /* Set color to transparent */
 }
 
 .link_decoration_no_underline:hover {
   text-decoration: none; /* Remove underline on hover */
-  color: none;    /* Set color to transparent on hover */
 }
 
 body {
@@ -176,12 +174,12 @@ a:focus {
     color: #000;
   }
   .bottom-div-row a:hover {
-    text-decoration: underline;
+    text-decoration: none;
     color: inherit;
   }
   .spacepx{
     padding-right: 50px;
-    text-decoration: underline;
+    text-decoration: none;
   }
   .bottominforow1{
     margin-left: 1%;
