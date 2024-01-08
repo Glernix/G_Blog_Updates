@@ -31,7 +31,7 @@ body {
 }
 .link_decoration_no_underline {
   text-decoration: none; /* Remove underline */
-  color: transparent;    /* Set color to transparent */
+  color: none;    /* Set color to transparent */
 }
 
 .link_decoration_no_underline:hover {
